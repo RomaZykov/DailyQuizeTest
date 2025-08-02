@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DailyQuizeTest</string>
+    <string name="quiz_welcome_screen">quiz welcome screen</string>
+    <string name="history_button_text">История</string>
+    <string name="quiz_history_screen">quiz history screen</string>
+    <string name="quiz_welcome_text">Добро пожаловать\nв DailyQuiz!</string>
+    <string name="start_quiz_button_text">НАЧАТЬ ВИКТОРИНУ</string>
+    <string name="logo">DailyQuiz logo</string>
+    <string name="welcome_error_text">Ошибка! Попробуйте ещё раз</string>
+</resources>
