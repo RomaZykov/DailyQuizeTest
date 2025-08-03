@@ -1,3 +1,5 @@
+import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -58,6 +60,7 @@ dependencies {
     // retrofit
     implementation(libs.retrofit2)
     implementation(libs.retrofit2.kotlinx.serialization.converter)
+    implementation(libs.converter.gson)
 
     // room
     implementation(libs.androidx.room.runtime)

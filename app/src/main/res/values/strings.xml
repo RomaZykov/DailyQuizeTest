@@ -7,4 +7,10 @@
     <string name="start_quiz_button_text">НАЧАТЬ ВИКТОРИНУ</string>
     <string name="logo">DailyQuiz logo</string>
     <string name="welcome_error_text">Ошибка! Попробуйте ещё раз</string>
+    <string name="almost_done">Почти готовы</string>
+    <string name="category_description"><![CDATA[Осталось выбрать категорию\nи сложность викторины.]]></string>
+    <string name="next_button_text">Далее</string>
+    <string name="category_menu_text">Категория</string>
+    <string name="difficulty_menu_text">Сложность</string>
+    <string name="empty_history">Вы еще не проходили\nни одной викторины</string>
 </resources>

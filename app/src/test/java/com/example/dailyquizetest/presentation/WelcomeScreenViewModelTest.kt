@@ -1,9 +1,8 @@
 package com.example.dailyquizetest.presentation
 
 import com.example.dailyquizetest.core.DispatcherList
-import com.example.dailyquizetest.presentation.welcome.WelcomeViewModel
+import com.example.dailyquizetest.presentation.features.welcome.WelcomeViewModel
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

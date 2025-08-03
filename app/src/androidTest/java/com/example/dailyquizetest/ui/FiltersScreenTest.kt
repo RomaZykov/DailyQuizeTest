@@ -4,7 +4,7 @@ import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.printToLog
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.dailyquizetest.presentation.filters.FiltersViewModel
-import com.example.dailyquizetest.presentation.welcome.WelcomeViewModel
+import com.example.dailyquizetest.presentation.features.welcome.WelcomeViewModel
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith

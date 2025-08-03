@@ -15,6 +15,14 @@ data class DailyQuizTypography(
         lineHeight = 32.sp,
         letterSpacing = 0.5.sp
     ),
+    val dropDownItem: TextStyle = TextStyle(
+        color = TertiaryBlue,
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Bold,
+        fontSize = 16.sp,
+        lineHeight = 32.sp,
+        letterSpacing = 0.5.sp
+    ),
     val button: TextStyle = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Bold,

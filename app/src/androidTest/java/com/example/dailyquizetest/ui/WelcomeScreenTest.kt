@@ -9,10 +9,10 @@ import androidx.navigation.testing.TestNavHostController
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.example.dailyquizetest.R
 import com.example.dailyquizetest.core.BaseComposeTest
-import com.example.dailyquizetest.presentation.welcome.WelcomeScreen
-import com.example.dailyquizetest.presentation.welcome.WelcomeUiState
-import com.example.dailyquizetest.presentation.welcome.WelcomeViewModel
-import com.example.dailyquizetest.presentation.welcome.model.Initial
+import com.example.dailyquizetest.presentation.features.welcome.WelcomeScreen
+import com.example.dailyquizetest.presentation.features.welcome.WelcomeUiState
+import com.example.dailyquizetest.presentation.features.welcome.WelcomeViewModel
+import com.example.dailyquizetest.presentation.features.welcome.model.Initial
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

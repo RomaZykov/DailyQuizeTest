@@ -4,17 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
-import com.example.dailyquizetest.presentation.navigation.MainNavigation
+import com.example.dailyquizetest.presentation.mainNavigation.MainNavigation
 import com.example.dailyquizetest.presentation.ui.theme.DailyQuizeTestTheme
-import com.example.dailyquizetest.presentation.welcome.navigation.WelcomeRoute
+import com.example.dailyquizetest.presentation.features.welcome.navigation.WelcomeRoute
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

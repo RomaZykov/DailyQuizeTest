@@ -14,8 +14,8 @@ import androidx.navigation.testing.TestNavHostController
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import com.example.dailyquizetest.presentation.MainActivity
-import com.example.dailyquizetest.presentation.navigation.MainNavigation
-import com.example.dailyquizetest.presentation.welcome.navigation.WelcomeRoute
+import com.example.dailyquizetest.presentation.mainNavigation.MainNavigation
+import com.example.dailyquizetest.presentation.features.welcome.navigation.WelcomeRoute
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import org.junit.Before

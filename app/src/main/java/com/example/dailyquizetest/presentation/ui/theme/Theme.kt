@@ -45,7 +45,7 @@ private val LightColorScheme = lightColorScheme(
 fun DailyQuizeTestTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
@@ -54,7 +54,7 @@ fun DailyQuizeTestTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
 
-        darkTheme -> DarkColorScheme
+        darkTheme -> LightColorScheme
         else -> LightColorScheme
     }
 
@@ -72,4 +72,7 @@ object DailyQuizTheme {
     val typography: DailyQuizTypography
         @Composable @ReadOnlyComposable
         get() = LocalCustomTypography.current
+    val dimensions: Dimensions
+        @Composable @ReadOnlyComposable
+        get() = LocalSpacing.current
 }
